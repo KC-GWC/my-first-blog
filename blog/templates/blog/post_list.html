@@ -1,5 +1,5 @@
-{% load staticfiles %}
 {% extends 'blog/base.html' %}
+{% load staticfiles %}
 
 <html>
     <head>
@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
-      {% extends 'blog/base.html' %}
 
       {% block content %}
           {% for post in posts %}
